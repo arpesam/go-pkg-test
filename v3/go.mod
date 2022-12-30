@@ -1,4 +1,4 @@
-module github.com/arpesam/go-pkg-test
+module github.com/arpesam/go-pkg-test/v2
 
 go 1.18
 
