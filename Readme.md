@@ -19,3 +19,10 @@ In order to create new versions of packages in Golang, we have these options :
 2. Create a version (v2) folder in the root directory. This is the suggested approach since clients that are already using the current version will not be impacted. They will be able to pick which version they want to use. A bennefit of this approach is the possibility to maintain two versions in the same repo and branch. Don't forget to tag the branch correctly.
 
 3. Create a new branch with the updated module name, adding `v2` at the end, tag it with the version name and then make this the default branch. Using this approach is similar to creating a subfolder (option 2), the difference is that instead of two folders we now gonna have a branch per version.
+
+## References
+- https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher
+- https://stackoverflow.com/questions/70058951/project-structure-with-v2-go-modules
+- https://github.com/golang/go/issues/35732
+- https://medium.com/rungo/anatomy-of-modules-in-go-c8274d215c16
+- https://go.dev/doc/modules/managing-dependencies#getting_version
